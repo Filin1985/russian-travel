@@ -1,10 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        name="description"
+        content="Веб-сайт о достопримечательностях в России"
+      />
+      <meta name="keywords" content="Путешествие, страна, природа" />
+      <meta name="author" content="Marat Ikhsanova" />
+      <title>Путешествия по России</title>
+      <link rel="stylesheet" href="pages/index.css" />
+    </head>
   </head>
-  <body></body>
+  <body class="page">
+    <div class="page__container">
+      <header class="header section">
+        <img
+          class="header__logo"
+          src="./images/logo.svg"
+          alt="Логотип сайста - карта страны"
+        />
+        <ul class="header__lang-links">
+          <li>
+            <a class="header__lang-link" href="#">Ru</a>
+          </li>
+          <li>
+            <a class="header__lang-link header__lang-link_active" href="#"
+              >En</a
+            >
+          </li>
+        </ul>
+      </header>
+      <section class="lead">
+        <h1 class="lead__title">Путешествие по&nbsp;России</h1>
+        <p class="lead__subtitle">
+          Настоящая страна не в выпусках новостей, а здесь.
+        </p>
+        <figure class="lead__image">
+          <img
+            class="lead__picture"
+            src="./images/polka.jpg"
+            alt="Путь путешествия"
+          />
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
+      </section>
+    </div>
+  </body>
 </html>
