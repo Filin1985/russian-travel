@@ -1,0 +1,14 @@
+.place {
+  display: grid;
+  grid-template-columns: minmax(460px, 1fr) minmax(min-content, max-content);
+  grid-template-rows: minmax(min-content, max-content) minmax(460px, 1fr);
+  grid-template-areas:
+    "title subtitle"
+    "image paragraph";
+  row-gap: 48px;
+  column-gap: 40px;
+}
+
+.place:first-of-type {
+  margin-top: 92px;
+}
