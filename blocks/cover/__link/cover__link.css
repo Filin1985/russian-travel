@@ -44,3 +44,9 @@
     margin-top: 66px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    display: inline;
+  }
+}

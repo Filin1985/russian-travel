@@ -3,7 +3,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.63;
+  line-height: 1.619;
+  padding-bottom: 25px;
+}
+
+.place__paragraph:last-of-type {
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
