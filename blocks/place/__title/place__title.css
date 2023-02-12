@@ -21,3 +21,9 @@
     line-height: 1.09;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    padding: 0 16px;
+  }
+}
