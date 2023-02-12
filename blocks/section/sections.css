@@ -9,3 +9,15 @@
     padding: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section {
+    padding: 0 16px;
+  }
+}
