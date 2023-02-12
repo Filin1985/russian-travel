@@ -8,3 +8,9 @@
   letter-spacing: 2px;
   color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px) {
+  .place__url {
+    line-height: 1;
+  }
+}

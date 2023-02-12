@@ -32,3 +32,15 @@
 .cover__link:hover:before {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cover__link {
+    margin-top: 66px;
+  }
+}
