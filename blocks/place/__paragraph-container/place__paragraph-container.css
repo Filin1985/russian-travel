@@ -1,5 +1,8 @@
 .place__paragraph-container {
   grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 @media screen and (max-width: 320px) {

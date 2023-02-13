@@ -12,3 +12,6 @@
 - Grid
 - Responsive Design
 - Pixel Perfect
+
+**Можно помотреть проект**
+[Ссылка на проект](https://filin1985.github.io/russian-travel/)

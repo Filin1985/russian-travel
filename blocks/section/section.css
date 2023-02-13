@@ -4,30 +4,14 @@
   padding: 0 48px;
 }
 
-@media screen and (max-width: 1024px) {
-  .section.cover {
-    padding: 0;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .section {
     padding: 0 24px;
-  }
-
-  .section.lead {
-    padding: 0;
   }
 }
 
 @media screen and (max-width: 550px) {
   .section {
     padding: 0 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .section.places {
-    padding: 0;
   }
 }
