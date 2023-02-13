@@ -1,0 +1,5 @@
+@media screen and (max-width: 320px) {
+  .places_size_wide {
+    padding: 0;
+  }
+}
